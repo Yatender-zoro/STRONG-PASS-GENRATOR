@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h2 id="msg">Generate Strong Passwords</h2>
+            <div class="pass">
+                <input type="text" class="field">
+                <i id='logo' class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <div class="type">
+                <div class="uppcase">
+                    <input type="checkbox" class="checkbox">
+                    <p>Upper Case</p> 
+                </div>
+                <div class="lowcase">
+                    <input type="checkbox" class="checkbox">
+                    <p>Lower Case</p> 
+                </div>
+                <div class="num">
+                    <input type="checkbox" class="checkbox">
+                    <p>Numbers</p>
+                </div>
+                <div class="symbol">
+                    <input type="checkbox" class="checkbox">
+                    <p>Symbols</p>
+                </div>
+            </div>
+            <div class="button">
+                <button id="btn">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
